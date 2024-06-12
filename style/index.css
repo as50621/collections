@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body, html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.header-img{
+    width: 50px;
+    height: auto;
+}
+
+.header-title{
+    color: #fa0f00;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.nav{
+    margin-top: 2rem;
+}
+
+.nav-ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-li{
+    width: 33.3333333%;
+}
+
+.nav-btn{
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+.nav-btn:hover{
+    opacity: .7;
+}
+
+.nav-btn-acrobat{
+    background-color: #333;
+}
+
+.nav-btn-premiere{
+    background-color: #dd1f8e;
+}
+
+.nav-btn-photoshop{
+    background-color: #00a7e2;
+}
+
+.nav-btn-after-effect{
+    background-color: #620294;
+}
+
+.nav-btn-illustrator{
+    background-color: #ee9a10;
+}
+
+.nav-btn-dreamweaver{
+    background-color: #84c922;
+}
