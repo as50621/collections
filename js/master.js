@@ -57,6 +57,54 @@ function setFancybox(){
         protect: true,
         // 循環
         loop: true,
+        animationDuration: 1000,
+        // 轉場
+        transitionDuration: 1000,
+        transitionEffect: 'slide',
+        // 全螢幕
+        // fullScreen:{autoStart:true,}
+
+        // 鍵盤控制
+        // keyboard:false,
+
+        // 左上分頁資訊
+        // infobar:false,
+
+        // 右上工具選單
+        // toolbar:false,
+
+        // 右上縮圖模式
+        // thumbs:false,
+
+        // 右上叉叉按鈕
+        // smallBtn:true,
+
+        // 箭頭
+        // arrows:false,
+
+        // 客製右上按鈕
+        buttons:[
+            'zoom',
+            'share',
+            'slideShow',
+            "fullScreen",
+            'download',
+            'thumbs',
+            'close',
+        ],
+
+        // 關閉自動播放
+        media:{
+            youtube:{
+                params:{autoplay:false,}
+            }
+        }
+
+        // 自動輪播
+        // slideShow:{
+        //     autoStart:true,
+        //     speed:3000,
+        // } 
     });
 }
 
